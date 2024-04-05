@@ -7,6 +7,8 @@ import Payments from "./Pages/Accounts/Sub-Pages/Payments/Index"
 import Topbar from "./components/Topbar/Index";
 import Sidebar from "./components/Sidebar/Index";
 import CompanyForm from "./Pages/Accounts/Sub-Pages/CompanyAccount/Form/Index";
+import CustomerForm from "./Pages/Accounts/Sub-Pages/CustomerAccount/Form/Index";
+import PaymentForm from "./Pages/Accounts/Sub-Pages/Payments/Form/Index";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
               <Route path="/customer-account" element={<CustomerAccount />} />
               <Route path="/payments" element={<Payments />} />
               <Route path="/add-company-data" element={<CompanyForm />} />
+              <Route path="/add-customer-data" element={<CustomerForm />} />
+              <Route path="/add-payment-data" element={<PaymentForm />} />
             </Routes>
           </BrowserRouter>
         </div>

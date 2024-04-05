@@ -26,7 +26,7 @@ const Table = () => {
                         <th>S.No</th>
                         <th>Date</th>
                         <th>Vehicle Name</th>
-                        <th>Chasis</th>
+                        <th>Chassis</th>
                         <th>Total C&F</th>
                         <th>Payment Recieved</th>
                         <th>Balance</th>

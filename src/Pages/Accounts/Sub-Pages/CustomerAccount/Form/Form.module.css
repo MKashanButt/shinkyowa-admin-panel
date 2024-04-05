@@ -1,0 +1,48 @@
+.submitForm {
+    width: 100%;
+}
+
+.submitForm h2 {
+    margin: 2rem 0;
+}
+
+.submitForm form {
+    width: 95%;
+}
+
+.submitForm form .fields {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.submitForm .item {
+    width: 48%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    align-items: baseline;
+    position: relative;
+}
+
+.submitForm .item label {
+    width: 32%;
+}
+
+.submitForm .item input {
+    height: 2.4rem;
+}
+
+.submitForm .item input {
+    width: 68%;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+.submitForm .item input:focus {
+    border: 1px solid white;
+    outline: 2px solid var(--primary);
+}
