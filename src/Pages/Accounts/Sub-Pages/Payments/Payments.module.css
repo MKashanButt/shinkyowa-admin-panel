@@ -16,6 +16,8 @@
 
 .account thead tr {
     width: 99%;
+    background-color: rgba(236, 236, 236, 1);
+    border-radius: 5px 5px 0 0;
     display: inline-flex;
     gap: 5px;
 }
@@ -23,8 +25,6 @@
 .account thead th {
     display: inline-block;
     width: 15%;
-    border: 1px solid black;
-    border-radius: 5px;
     padding: 0.5rem;
 }
 
@@ -40,8 +40,7 @@
 
 .account tbody tr {
     width: 99%;
-    border: 1px solid black;
-    border-radius: 4px;
+    border-bottom: 1px solid grey;
     display: inline-flex;
     align-items: start;
 }
@@ -63,10 +62,4 @@
 .account tbody td:nth-of-type(4) {
     display: inline-flex;
     width: 35%;
-}
-
-.payments button {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
 }
