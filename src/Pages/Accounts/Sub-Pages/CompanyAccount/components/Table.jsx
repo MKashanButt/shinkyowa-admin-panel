@@ -21,6 +21,27 @@ const Table = () => {
                     <td>20,000/-</td>
                     <td>50,000/-</td>
                 </tr>
+                <tr>
+                    <td>04/04/2024</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio dolores soluta itaque, explicabo impedit quia.</td>
+                    <td>70,000/-</td>
+                    <td>20,000/-</td>
+                    <td>50,000/-</td>
+                </tr>
+                <tr>
+                    <td>04/04/2024</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio dolores soluta itaque, explicabo impedit quia.</td>
+                    <td>70,000/-</td>
+                    <td>20,000/-</td>
+                    <td>50,000/-</td>
+                </tr>
+                <tr>
+                    <td>04/04/2024</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio dolores soluta itaque, explicabo impedit quia.</td>
+                    <td>70,000/-</td>
+                    <td>20,000/-</td>
+                    <td>50,000/-</td>
+                </tr>
             </tbody>
         </table>
     )

@@ -1,0 +1,11 @@
+.heading {
+    width: 100%;
+    margin: 2rem 0;
+    position: relative;
+    display: flex;
+}
+
+.heading button {
+    position: absolute;
+    right: 10px;
+}

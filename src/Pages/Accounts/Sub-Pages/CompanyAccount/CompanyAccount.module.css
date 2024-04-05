@@ -6,7 +6,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .account thead {
@@ -18,12 +17,13 @@
     width: 99%;
     display: inline-flex;
     gap: 5px;
+    border-radius: 5px 5px 0 0;
+    background-color: rgba(236, 236, 236, 1);
 }
 
 .account thead th {
     display: inline-block;
     width: 15%;
-    border: 1px solid black;
     border-radius: 5px;
     padding: 0.5rem;
 }
@@ -35,8 +35,7 @@
 
 .account tbody tr {
     width: 99%;
-    border: 1px solid black;
-    border-radius: 4px;
+    border-bottom: 1px solid grey;
     display: inline-flex;
     align-items: start;
 }
@@ -53,10 +52,4 @@
 .account tbody td:nth-of-type(2) {
     display: inline-block;
     width: 40%;
-}
-
-.companyAccount button {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
 }
