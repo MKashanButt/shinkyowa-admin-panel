@@ -53,3 +53,17 @@
     display: inline-block;
     width: 40%;
 }
+
+.account tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+.companyBalance {
+    background-color: rgba(236, 236, 236, 1);
+    margin: 1rem 0;
+    font-size: 14px;
+}
+
+.companyBalance:last-of-type {
+    margin-right: 1rem;
+}

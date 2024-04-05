@@ -1,7 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from '../CustomerAccount.module.css'
 
 const Table = () => {
+    const [balance, setBalance] = useState()
+
+    useEffect(() => {
+        totalBalance()
+    }, [])
+    function totalBalance() {
+        const balance = document.querySelectorAll('#customer-balance');
+        let total = 0
+
+        balance.forEach(elm => {
+            let balance = parseFloat(elm.textContent) || 0;
+            total += balance
+        });
+
+        setBalance(total)
+    }
     return (
         <div className={styles.table}>
             <table className={styles.account}>
@@ -24,7 +40,16 @@ const Table = () => {
                         <td>CRF1456</td>
                         <td>$6000</td>
                         <td>08/04/2024</td>
-                        <td>$4000</td>
+                        <td>$<span id='customer-balance'>4000</span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td className={styles.customerBalance}>Total</td>
+                        <td className={styles.customerBalance}>${balance}</td>
                     </tr>
                 </tbody>
             </table>

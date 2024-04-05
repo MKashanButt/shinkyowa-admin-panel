@@ -54,7 +54,6 @@
 .account tbody td {
     display: inline-flex;
     width: 15%;
-    border-radius: 5px;
     padding: 0.5rem;
     justify-content: center;
     align-items: baseline;
@@ -63,4 +62,18 @@
 .account tbody td:nth-of-type(3) {
     display: inline-flex;
     width: 40%;
+}
+
+.account tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+.customerBalance {
+    background-color: rgba(236, 236, 236, 1);
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.customerBalance:last-of-type {
+    margin-right: 0.3rem;
 }
