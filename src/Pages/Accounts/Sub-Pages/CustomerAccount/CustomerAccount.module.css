@@ -2,8 +2,13 @@
     width: 100%;
 }
 
-.account {
+.table {
     width: 100%;
+    overflow-x: auto;
+}
+
+.account {
+    width: 1200px;
     display: flex;
     flex-direction: column;
 }
