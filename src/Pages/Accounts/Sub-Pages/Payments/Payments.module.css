@@ -48,7 +48,6 @@
 .account tbody td {
     display: inline-flex;
     width: 15%;
-    border-radius: 5px;
     padding: 0.5rem;
     justify-content: center;
     align-items: baseline;
