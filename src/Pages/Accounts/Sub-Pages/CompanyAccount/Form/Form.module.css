@@ -1,0 +1,80 @@
+.submitForm {
+    width: 100%;
+}
+
+.submitForm h2 {
+    margin: 2rem 0;
+}
+
+.submitForm form {
+    width: 95%;
+}
+
+.submitForm form .fields {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.submitForm .item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    align-items: baseline;
+    position: relative;
+}
+
+.submitForm .item:nth-of-type(1) {
+    width: 28%;
+}
+
+.submitForm .item:nth-of-type(2) {
+    width: 70%;
+}
+
+.submitForm .item:nth-of-type(2) label {
+    width: 15%;
+}
+
+.submitForm .item:nth-of-type(3),
+.submitForm .item:nth-of-type(4) {
+    width: 49%;
+}
+
+.submitForm .item:nth-of-type(3) label,
+.submitForm .item:nth-of-type(4) label {
+    width: 15%;
+}
+
+.submitForm .item:nth-of-type(3) input,
+.submitForm .item:nth-of-type(4) input {
+    width: 85%;
+}
+
+.submitForm .item label {
+    width: 25%;
+}
+
+.submitForm .item input {
+    height: 2.4rem;
+}
+
+.submitForm .item input,
+.submitForm .item textarea {
+    width: 75%;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+.submitForm .item textarea {
+    width: 85%;
+}
+
+.submitForm .item input:focus,
+.submitForm .item textarea:focus {
+    border: 1px solid white;
+    outline: 2px solid var(--primary);
+}
