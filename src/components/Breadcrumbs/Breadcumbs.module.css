@@ -1,0 +1,11 @@
+.breadcrumbs {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 2rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.icon {
+    width: 16px;
+}

@@ -1,0 +1,79 @@
+.topbar {
+    width: 100%;
+    height: 63px;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+    z-index: 90;
+}
+
+.topbar .account {
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+.topbar .account .user {
+    width: 10%;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: var(--primary);
+    padding: 0.5rem;
+    top: -5px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.topbar .account .user:hover {
+    filter: brightness(0.8);
+}
+
+.topbar .settings {
+    width: 15%;
+    display: flex;
+    padding: 0.6rem 0;
+    position: absolute;
+    right: 15px;
+    top: 4rem;
+    border-radius: 4px;
+    box-shadow: 0 0 5px -2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar .settings ul {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.topbar .settings li {
+    width: 100%;
+    border-radius: 4px;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+}
+
+.topbar .settings li:hover {
+    filter: brightness(0.9);
+}
+
+.topbar .settings .icon {
+    width: 1.1rem;
+}
+
+.topbar .icon {
+    width: 1.4rem;
+}

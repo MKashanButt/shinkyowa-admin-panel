@@ -1,0 +1,72 @@
+.payments {
+    width: 100%;
+}
+
+.account {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.account thead {
+    width: 100%;
+    display: inline-flex;
+}
+
+.account thead tr {
+    width: 99%;
+    display: inline-flex;
+    gap: 5px;
+}
+
+.account thead th {
+    display: inline-block;
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.account thead th:nth-of-type(3) {
+    display: inline-block;
+    width: 20%;
+}
+
+.account thead th:nth-of-type(4) {
+    display: inline-block;
+    width: 35%;
+}
+
+.account tbody tr {
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: start;
+}
+
+.account tbody td {
+    display: inline-flex;
+    width: 15%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.account tbody td:nth-of-type(3) {
+    display: inline-flex;
+    width: 20%;
+}
+
+.account tbody td:nth-of-type(4) {
+    display: inline-flex;
+    width: 35%;
+}
+
+.payments button {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}

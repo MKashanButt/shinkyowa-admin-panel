@@ -1,0 +1,64 @@
+.sidebar {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar>ul {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebar>ul>li {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: white;
+    transition: 0.2s ease all;
+    padding: 0.4rem;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    z-index: 90;
+}
+
+.sidebar>ul>li:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.subMenu {
+    position: absolute;
+    width: 17.8%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: rgba(236, 236, 236, 1);
+    top: 105px;
+    z-index: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.subMenu ul {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subMenu li {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: 0.2s ease all;
+    position: relative;
+}
+
+.subMenu li:hover {
+    background-color: white;
+    cursor: pointer;
+}
