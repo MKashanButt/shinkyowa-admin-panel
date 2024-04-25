@@ -1,14 +1,12 @@
 import React from 'react';
+import styles from './Dashboard.module.css';
 
 const Dashboard = () => {
     return (
         <>
-            {/* <Topbar />
             <section className={styles.dashboard}>
-                <Sidebar />
-                <div className={styles.content}>
-                </div>
-            </section> */}
+                
+            </section>
         </>
     )
 }
